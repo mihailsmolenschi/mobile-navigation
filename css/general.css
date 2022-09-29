@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Text style */
+.heading-primary {
+  font-size: 3.2rem;
+  padding: 2.4rem 0;
+}
+
+.heading-secondary {
+  padding: 1.8rem 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.important-text {
+  color: black;
+  background-color: bisque;
+
+  box-shadow: 0 1px 20px gray;
+  border-radius: 11px;
+  padding: 1.5rem 4rem;
+}
